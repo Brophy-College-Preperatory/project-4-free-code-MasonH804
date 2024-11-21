@@ -1,0 +1,60 @@
+body html_{
+    background-color: lightblue;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 100%
+}
+
+p {
+        background-color: lightblue;
+        font-family: courier;
+    font-size: 125%;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+        font-family: courier;
+        font-size: 125%;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: black;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#website {
+    border-style: solid;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+li {
+    border-right: 1px solid #bbb ;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+
+html{
+    background: linear-gradient(45deg, rgb(218, 244, 255), rgb(79, 187, 242));
+}
